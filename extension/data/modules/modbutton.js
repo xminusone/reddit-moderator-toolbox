@@ -285,14 +285,14 @@ self.init = function () {
         if (showglobal) {
             var $globalButton = $popup.find('.global-button');
 
-            if ($popup.find('.mod-action').val() === 'ban') {
+            if ($popup.find('.mod-action').val() === 'donthideanything') {
                 $globalButton.addClass('action-hidden');
             }
 
             $popup.find('.mod-action').change(function () {
                 var value = this.value;
 
-                if (value === 'ban') {
+                if (value === 'donthideanything') {
                     $globalButton.addClass('action-hidden');
                 } else {
                     $globalButton.removeClass('action-hidden');
