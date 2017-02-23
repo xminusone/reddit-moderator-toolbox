@@ -135,11 +135,6 @@ self.init = function () {
         <br/>
         <span class="redditorTime"></span>
         <br/>
-        <p class="tb-history-disclaimer">
-        <strong>Disclaimer: </strong> The information shown below is an <i>indication</i> not a complete picture, it lacks the context you would get from having a look at a person's profile.
-        
-        </p>
-        <b>Available history:</b> <br>
         <label class="submission-count"></label> submissions
         <br>
         <span class="tb-history-comment-stats" style="display:none">
