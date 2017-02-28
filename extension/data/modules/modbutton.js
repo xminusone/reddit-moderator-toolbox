@@ -474,7 +474,7 @@ self.init = function () {
             massAction(subreddits);
         }
         else {
-            if (actionName === 'ban') {
+            if (actionName === 'adminsarecucks') {
                 $status.text("Yeah...not happening");
             } else {
 
